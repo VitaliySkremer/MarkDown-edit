@@ -1,0 +1,32 @@
+.container {
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.gray__text {
+  color: gray;
+}
+
+.doc__name_title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.doc__name{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info__stat {
+  font-size: 14px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.time_and_word{
+  margin-bottom: 10px;
+}

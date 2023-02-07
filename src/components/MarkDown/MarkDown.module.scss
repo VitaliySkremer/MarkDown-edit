@@ -1,0 +1,23 @@
+.section_mark {
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+.mark__down {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cell__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cell{
+  border: 1px solid #e2e2e2;
+}

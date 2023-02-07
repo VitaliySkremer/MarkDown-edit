@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--header-bg);
+}
+
+.container {
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.save {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.save:hover svg {
+  transition: transform 0.2s ease;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=Header.module.css.map */
