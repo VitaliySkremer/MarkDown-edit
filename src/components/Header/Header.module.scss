@@ -14,18 +14,26 @@
   font-size: 32px;
 }
 
-.save {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+.list__drop{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
-  svg {
-    transition: transform .2s ease;
-  }
-
-  &:hover {
-    svg {
-      transform: scale(1.1);
-    }
+  &_item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
+
+.list__btn {
+  width:100%;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  background-color: var(--header-bg);
+  transition: background-color .2s ease;
+  &:hover {
+    background-color: var(--drop-list-hover);
+  }
+}
+

@@ -1,12 +1,15 @@
 import {createSlice} from "@reduxjs/toolkit";
 import type {PayloadAction} from "@reduxjs/toolkit";
+import {markdown} from 'markdown';
 
 export interface MarkDownState{
   text: string;
+  mdText: string;
 }
 
 const initialState:MarkDownState = {
-  text:''
+  text:'',
+  mdText:''
 }
 
 export const textSlice = createSlice({
@@ -15,6 +18,7 @@ export const textSlice = createSlice({
   reducers:{
     setMarkDown:(state,action:PayloadAction<string>)=>{
       state.text = action.payload;
+      state.mdText = markdown.toHTML(action.payload)
     }
   }
 })

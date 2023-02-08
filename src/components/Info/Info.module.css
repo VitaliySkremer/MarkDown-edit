@@ -19,6 +19,8 @@
 .doc__name {
   font-size: 16px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .info__stat {
@@ -29,6 +31,19 @@
 
 .time_and_word {
   margin-bottom: 10px;
+}
+
+.edit__name {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.input__name {
+  border: none;
+  background-color: #dbdbdb;
+  padding: 5px;
+  outline: none;
 }
 
 /*# sourceMappingURL=Info.module.css.map */
