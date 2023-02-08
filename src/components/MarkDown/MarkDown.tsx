@@ -1,5 +1,6 @@
 import { MarkText } from '../MarkText/MarkText'
 import styles from './MarkDown.module.scss'
+import {MarkOut} from "../MarkOut/MarkOut";
 
 export const MarkDown = () => {
   return (
@@ -15,12 +16,8 @@ export const MarkDown = () => {
             PREVIEW
           </div>
         </div>
-        <div className={styles.cell}>
-          <MarkText/>
-        </div>
-        <div className={styles.cell}>
-          fgfdh
-        </div>
+        <MarkText className={styles.cell}/>
+        <MarkOut className={styles.cell}/>
       </div>
     </section>
   )

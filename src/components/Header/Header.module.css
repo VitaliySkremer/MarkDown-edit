@@ -19,8 +19,10 @@
   border: none;
   cursor: pointer;
 }
-.save:hover svg {
+.save svg {
   transition: transform 0.2s ease;
+}
+.save:hover svg {
   transform: scale(1.1);
 }
 

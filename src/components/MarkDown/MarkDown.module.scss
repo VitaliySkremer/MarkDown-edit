@@ -1,12 +1,13 @@
 .section_mark {
   height: 100%;
   flex: 1 1 auto;
+  overflow: hidden;
 }
 
 .mark__down {
   display: grid;
   height: 100%;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 50px;
   grid-template-columns: repeat(2, 1fr);
 }
 
