@@ -22,3 +22,10 @@
 .cell{
   border: 1px solid #e2e2e2;
 }
+
+@media all and (max-width: 470px){
+  .cell__top {
+    padding: 5px;
+    font-size: 16px;
+  }
+}

@@ -9,4 +9,11 @@
   resize: none;
 }
 
+@media all and (max-width: 470px) {
+  .mark__text {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
 /*# sourceMappingURL=MarkText.module.css.map */

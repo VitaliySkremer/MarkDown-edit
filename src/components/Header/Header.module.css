@@ -36,4 +36,10 @@
   background-color: var(--drop-list-hover);
 }
 
+@media all and (max-width: 620px) {
+  .container {
+    padding: 10px 10px;
+  }
+}
+
 /*# sourceMappingURL=Header.module.css.map */

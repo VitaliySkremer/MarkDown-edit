@@ -31,6 +31,11 @@
 
 .time_and_word {
   margin-bottom: 10px;
+  display: flex;
+}
+
+.time__read {
+  margin-right: 5px;
 }
 
 .edit__name {
@@ -43,7 +48,36 @@
   border: none;
   background-color: #dbdbdb;
   padding: 5px;
+  border-radius: 4px;
   outline: none;
+}
+
+@media all and (max-width: 620px) {
+  .container {
+    padding: 10px 10px;
+  }
+}
+@media all and (max-width: 450px) {
+  .doc__name_title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .time_and_word {
+    margin-bottom: 5px;
+    flex-direction: column;
+  }
+  .info__stat {
+    font-size: 12px;
+  }
+  .doc__name {
+    font-size: 14px;
+  }
+  .time__read {
+    margin: 0;
+  }
+  .input__name {
+    max-width: 100px;
+  }
 }
 
 /*# sourceMappingURL=Info.module.css.map */

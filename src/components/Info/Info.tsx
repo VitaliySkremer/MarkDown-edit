@@ -44,9 +44,14 @@ export const Info = () => {
           </p>
         </div>
         <div className={styles.info__stat}>
-          <p className={styles.time_and_word}>
-            <span className={styles.gray__text}>READING TIME:</span> {timeRead()} MIN READ <span className={styles.gray__text}>WORDS: </span> {text.length===0 ? '0' :text.split(/[ \n]/).length}
-          </p>
+          <div className={styles.time_and_word}>
+            <p className={styles.time__read}>
+              <span className={styles.gray__text}>READING TIME:</span> {timeRead()} MIN READ
+            </p>
+            <p>
+              <span className={styles.gray__text}>WORDS: </span> {text.length===0 ? '0' :text.split(/[ \n]/).length}
+            </p>
+          </div>
           <div>
             <p>
               <span className={styles.gray__text}>CHARACTERS:</span> {text.length}
